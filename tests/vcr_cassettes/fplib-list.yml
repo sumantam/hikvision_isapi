@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: http://192.168.0.251/ISAPI/Intelligent/FDLib?format=json
+  response:
+    body:
+      string: "{\n\t\"requestURL\":\t\"/ISAPI/Intelligent/FDLib?format=json\",\n\t\"statusCode\":\t1,\n\t\"statusString\":\t\"OK\",\n\t\"subStatusCode\":\t\"ok\",\n\t\"FDLib\":\t[{\n\t\t\t\"FDID\":\t\"2\",\n\t\t\t\"faceLibType\":\t\"infraredFD\",\n\t\t\t\"name\":\t\"\"\n\t\t}]\n}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '203'
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 19 Dec 2020 14:38:53 GMT
+      Keep-Alive:
+      - timeout=8, max=99
+      Server:
+      - webs
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1

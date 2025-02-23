@@ -1,0 +1,38 @@
+interactions:
+- request:
+    body: '{"UserInfoDelCond": {"EmployeeNoList": [{"employeeNo": "8"}]}}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '62'
+      User-Agent:
+      - python-requests/2.25.1
+    method: PUT
+    uri: http://192.168.0.251/ISAPI/AccessControl/UserInfo/Delete?format=json
+  response:
+    body:
+      string: "{\n\t\"requestURL\":\t\"/ISAPI/AccessControl/UserInfo/Delete?format=json\",\n\t\"statusCode\":\t1,\n\t\"statusString\":\t\"OK\",\n\t\"subStatusCode\":\t\"ok\"\n}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '134'
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 19 Dec 2020 14:38:53 GMT
+      Keep-Alive:
+      - timeout=8, max=99
+      Server:
+      - webs
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,4 @@
+export HIKVISION_ACT_LOGIN='admin'
+export HIKVISION_ACT_PASSWORD='Ambition'
+export HIKVISION_ACT_HOST='10.0.0.10'
+

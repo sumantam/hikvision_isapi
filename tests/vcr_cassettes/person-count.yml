@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: http://192.168.0.251/ISAPI/AccessControl/UserInfo/Count?format=json
+  response:
+    body:
+      string: "{\n\t\"UserInfoCount\":\t{\n\t\t\"userNumber\":\t7\n\t}\n}"
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 19 Dec 2020 14:38:53 GMT
+      Keep-Alive:
+      - timeout=8, max=99
+      Server:
+      - webs
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1
